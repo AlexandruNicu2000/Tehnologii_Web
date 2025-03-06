@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Cosmetic Shop</title>
+    <link rel="stylesheet" href="~/Content/style.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="contact-bar">
+            <li><a href="@Url.Action("Contact", "Home")" class="contact">&#9743 Contactează-ne</a></li>
+            <li><a href="@Url.Action("ShippingAndPayment", "Home")" class="shiping">&#9951 Transport și Plata</a></li>
+        </div>
+        <div class="top-bar">
+            <div class="logo">APHRODITA</div>
+            <div class="search-container">
+                <input type="text" placeholder="Căutare produse ...">
+            </div>
+            <div class="user-options">
+                <li><a href="@Url.Action("Login", "Home")" class="login">&#9847 Logare</a></li>
+                <span class="wishlist">&#9825 0</span>
+                <span class="cart">&#128722 0 MDL</span>
+            </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#">Machiaj</a></li>
+                <li><a href="#">Piele</a></li>
+                <li><a href="#">Parfumerie</a></li>
+                <li><a href="#">Bărbați</a></li>
+                <li><a href="#">Păr</a></li>
+                <li><a href="#">Branduri</a></li>
+                <li><a href="#">Noutați</a></li>
+                <li><a href="#">Seturi cadou</a></li>
+                <li><a href="#" class="active">Promoții</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="contact-section">
+    <div class="contact-header">
+        <h2>Contactează-ne</h2>
+        <p>Suntem aici să te ajutăm! Completează formularul și te vom contacta cât mai curând posibil.</p>
+    </div>
+
+    <div class="contact-form">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Numele tău</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajul tău</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Trimite</button>
+        </form>
+    </div>
+
+    <div class="contact-info">
+
+        <p><strong>Telefon:</strong> +373 123 456 789</p>
+        <p><strong>Email:</strong> contact@aphrodita.md</p>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2025 - Aphrodita</p>
+    </footer>
+
+</body>
+</html>
