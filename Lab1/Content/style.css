@@ -490,7 +490,7 @@ body, ul {
 /* Stilizare pagina produse si filtru*/
 
 
-        body {
+              body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f9f9f9;
         }
@@ -580,7 +580,8 @@ body, ul {
             height: 600px;
             width: 200px;
             border: 1px solid #f2f2f2;
-            margin: 20px;
+            margin: 50px;
+            transform: translate(-20%, -1%);
         }
 
         .text {
