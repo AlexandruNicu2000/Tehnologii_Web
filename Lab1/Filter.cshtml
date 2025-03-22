@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crema Hidratantă cu Acid Hialuronic</title>
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+
+        .filter1 {
+            border: 2px solid white;
+            width: 220px;
+            height: 570px;
+            border-radius: 10px;
+            margin: 20px 30px 20px 20px;
+            padding: 20px 30px 20px 20px;
+        }
+
+        .horizontal {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .scroll-container {
+            overflow-y: auto;
+            border: 1px solid white;
+            height: 120px;
+            width: 220px;
+        }
+
+
+            .scroll-container::-webkit-scrollbar {
+                width: 10px;
+            }
+
+            .scroll-container::-webkit-scrollbar-thumb {
+                background-color: #d42e6d;
+                border-radius: 10px;
+            }
+
+            .scroll-container::-webkit-scrollbar-track {
+                background-color: #f1f1f1;
+            }
+
+
+        .square-list li i {
+            margin-right: 10px;
+            color: #C0C0C0;
+            font-size: 20px;
+        }
+
+        .icon-minus-color i {
+            color: #C0C0C0;
+            font-size: 28px;
+        }
+
+        .produsele {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            text-align: center;
+        }
+
+        .produse {
+            margin: 5px;
+        }
+
+            .produse:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            }
+
+            .produse img {
+                display: grid;
+                width: 180px;
+                height: 250px;
+                margin: 20px;
+                border: 1px solid #f2f2f2;
+            }
+
+            .produse:hover img {
+                transform: scale(1.1);
+            }
+
+        .pagina-completa {
+            display: flex;
+        }
+
+
+        .publicitate img {
+            height: 600px;
+            width: 200px;
+            border: 1px solid #f2f2f2;
+            margin: 20px;
+        }
+
+        .text {
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .deasupra-paginii h1 {
+            margin-left: 150px;
+        }
+
+        .deasupra-paginii2 {
+            width: 100%; 
+            height: 130px; 
+            background-color: #f2f2f2; 
+            margin-top: 20px;
+            display: flex;
+        }
+
+
+
+
+
+        .blocuri-deasupra {
+            border: 1px solid #f2f2f2;
+            width: 200px;
+            height: 70px;
+            margin-left: 250px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+            display: flex;
+        }
+
+            .blocuri-deasupra h4 {
+                margin-left: 10px;
+            }
+
+        .blocuri-deasupra1 {
+            border: 1px solid #f2f2f2;
+            width: 200px;
+            height: 70px;
+            margin-left: 30px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+            display: flex;
+        }
+
+            .blocuri-deasupra1 h4 {
+                margin-left: 10px;
+            }
+
+        blocuri-deasupra img {
+            width: 10px;
+            height: 10px;
+        }
+
+        blocuri-deasupra1 img {
+            width: 10px;
+            height: 10px;
+        }
+
+        .blocuri-deasupra i {
+            color: #808080;
+            margin-left: 50px;
+            margin-top: 25px;
+        }
+
+        .blocuri-deasupra1 i {
+            color: #808080;
+            margin-left: 50px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="deasupra-paginii">
+        <h1>Pagina de produse</h1>
+    </div>
+
+    <div class="deasupra-paginii2">
+        <p>.</p>
+
+        <div class="blocuri-deasupra">
+            <img src="~/Content/images/collistar3.jpg" />
+            <h4>Corp</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="blocuri-deasupra1">
+            <img src="~/Content/images/collistar3.jpg" />
+
+            <h4>Corp</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="pagina-completa">
+        <div class="filter1">
+            <div class="icon-minus-color">
+                <div class="horizontal">
+
+                    <h3>Branduri</h3> <h3><i class="fa-regular fa-square-minus"></i></h3>
+
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div class="square-list">
+                    <ul>
+                        <li><i class="fa-regular fa-square"></i>Astra Make up</li>
+                        <li><i class="fa-regular fa-square"></i>Maybelline</li>
+                        <li><i class="fa-regular fa-square"></i>Seven7een</li>
+                        <li><i class="fa-regular fa-square"></i>Vivienne Sabo </li>
+                        <li><i class="fa-regular fa-square"></i>Collistar</li>
+                        <li><i class="fa-regular fa-square"></i>Max Factor</li>
+                        <li><i class="fa-regular fa-square"></i>Revolution</li>
+                        <li><i class="fa-regular fa-square"></i>Revolution</li>
+                        <li><i class="fa-regular fa-square"></i>Revolution</li>
+                        <li><i class="fa-regular fa-square"></i>Revolution</li>
+                        <li><i class="fa-regular fa-square"></i>Revolution</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="icon-minus-color">
+
+                <div class="horizontal">
+
+                    <h3>Țară</h3><h3><i class="fa-regular fa-square-minus"></i></h3>
+
+                </div>
+            </div>
+
+            <div class="scroll-container">
+                <div class="square-list">
+                    <ul>
+                        <li><i class="fa-regular fa-square"></i>Elveția</li>
+                        <li><i class="fa-regular fa-square"></i>Canada</li>
+                        <li><i class="fa-regular fa-square"></i>Italia</li>
+                        <li><i class="fa-regular fa-square"></i>Rusia</li>
+                        <li><i class="fa-regular fa-square"></i>Grecia</li>
+                        <li><i class="fa-regular fa-square"></i>Germania</li>
+                        <li><i class="fa-regular fa-square"></i>Coreea</li>
+                        <li><i class="fa-regular fa-square"></i>Anglia</li>
+                        <li><i class="fa-regular fa-square"></i>Spania</li>
+                        <li><i class="fa-regular fa-square"></i>Franța</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="icon-minus-color">
+                <div class="horizontal">
+                    <h3>Categorie</h3><h3><i class="fa-regular fa-square-minus"></i></h3>
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div class="square-list">
+                    <ul>
+                        <li><i class="fa-regular fa-square"></i>Fond de ten și bază pentru machiaj</li>
+                        <li><i class="fa-regular fa-square"></i>Corector și consilier</li>
+                        <li><i class="fa-regular fa-square"></i>Pudră pentru față</li>
+                        <li><i class="fa-regular fa-square"></i>Fard de obraz și iluminator</li>
+                        <li><i class="fa-regular fa-square"></i>Bronzator pentru față</li>
+                        <li><i class="fa-regular fa-square"></i>Conturarea feței</li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="publicitate">
+
+                <img src="~/Content/images/Advertisement.png" />
+
+            </div>
+        </div>
+
+        <div class="produsele">
+
+
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+
+
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+            <div class="produse">
+
+                <img src="~/Content/images/collistar3.jpg" />
+                <h4>Denumire produs</h4>
+                <p>Descriere produs</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="publicitate">
+
+            <img src="~/Content/images/Advertisement.png" />
+
+            <img src="~/Content/images/Advertisement.png" />
+
+        </div>
+
+    </div>
+
+    <div class="text">
+        Catalogul magazinului online de parfumerie si cosmetice prezinta o gama variata de produse cosmetice  la cei mai importanti producatori europeni.
+    </div>
+
+
+</body>
+</html>
