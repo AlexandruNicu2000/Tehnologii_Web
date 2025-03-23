@@ -600,3 +600,150 @@ body, ul {
  }
 
 
+/* Pentru cosul de cumparaturi*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-mare{
+
+   margin-left:150px;
+}
+
+.tabel-cos {
+    display: block;
+    margin-top: 100px;
+    margin-left: 280px;
+    gap: 80px;
+    border: 1px solid #f2f2f2;
+}
+
+
+.tabel-date{
+
+    display: flex;
+    gap: 90px;
+
+}
+
+.Date{
+    margin-top:100px;
+    
+
+}
+
+.Total{
+    display: flex;
+    gap:150px;
+}
+
+
+.Livrare {
+    display: flex;
+    gap: 138px;
+}
+
+.Spre-plata {
+    display: flex;
+    gap: 110px;
+}
+
+
+.Alte-date{
+
+margin-top: 100px;
+
+
+}
+
+    .Alte-date form {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        width: 100%;
+        max-width: 600px; 
+      
+    }
+
+label {
+    font-size: 16px; 
+    margin-bottom: 1px; 
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 1px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+textarea {
+    height: 80px; 
+    resize: vertical; 
+}
+
+
+.metoda-plata {
+    font-family: Arial, sans-serif;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+    .radio-group input[type="radio"] {
+        margin-right: 10px; 
+    }
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 16px;
+}
+
+
+
+input[type="submit"] {
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #d42e6d;
+    }
+
+
+.creare-cont {
+    display: flex;
+    align-items: center; 
+}
+
+    .creare-cont input[type="radio"] {
+        margin-right: 10px; 
+        margin-top: 20px;
+    }
+
+    .creare-cont label {
+        font-size: 16px;
+       margin-top: 20px;
+    }
+
+
