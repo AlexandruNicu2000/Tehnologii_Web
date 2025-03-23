@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crema Hidratantă cu Acid Hialuronic</title>
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="text-mare">
+
+        <h1> Coș de cumpărături</h1>
+    </div>
+
+    <div class="tabel-date">
+        <div class="tabel-cos">
+
+            <table border=1 cellpadding="8" cellspacing="0">
+                <tr>
+                    <th>Denumirea produsului</th>
+                    <th>Preț</th>
+                    <th>Cantitate</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://via.placeholder.com/50" alt="Produs">
+                        FP Odorizant auto Pioggia, 8 ml
+                    </td>
+                    <td>59 MDL</td>
+                    <td>
+                        <button>-</button>
+                        <input type="text" value="1" readonly>
+                        <button>+</button>
+                    </td>
+                    <td>59 MDL</td>
+                    <td>
+                        <button>&#128465;</button>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <div class="Date">
+
+            <h3>Comanda Dvs.</h3>
+
+            <svg width="100%" height="10">
+                <line x1="0" y1="5" x2="70%" y2="5" style="stroke:#f2f2f2; stroke-width:1" />
+            </svg>
+
+
+            <div class="Total">
+                <p>Total</p>
+                <p>MDL</p>
+
+            </div>
+            <svg width="100%" height="10">
+                <line x1="0" y1="5" x2="70%" y2="5" style="stroke:#f2f2f2; stroke-width:1" />
+            </svg>
+
+
+            <div class="Livrare">
+                <p>Livrare</p>
+                <p>MDL</p>
+
+            </div>
+            <svg width="100%" height="10">
+                <line x1="0" y1="5" x2="70%" y2="5" style="stroke:#f2f2f2; stroke-width:1" />
+            </svg>
+
+            <div class="Spre-plata">
+                <p>Spre plată</p>
+                <p>MDL</p>
+
+            </div>
+
+
+            <svg width="100%" height="10">
+                <line x1="0" y1="5" x2="70%" y2="5" style="stroke:#f2f2f2; stroke-width:1" />
+            </svg>
+
+
+
+            <div class="Alte-date">
+                <h3>Informații despre client</h3>
+                <form>
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume"><br><br>
+
+                    <label for="prenume">Prenume:</label>
+                    <input type="text" id="prenume" name="prenume"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="mesaj">Mesaj:</label>
+                    <textarea id="mesaj" name="mesaj"></textarea><br><br>
+
+                    <label for="regiune">Selectează regiunea:</label>
+                    <select id="regiune" name="regiune">
+                        <option value="regiunea1">Regiunea 1</option>
+                        <option value="regiunea2">Regiunea 2</option>
+                        <option value="regiunea3">Regiunea 3</option>
+                        <option value="regiunea4">Regiunea 4</option>
+                    </select><br><br>
+
+                    <label for="locatie">Selectează locația:</label>
+                    <select id="locatie" name="locatie">
+                        <option value="locatia1">Locația 1</option>
+                        <option value="locatia2">Locația 2</option>
+                        <option value="locatia3">Locația 3</option>
+                        <option value="locatia4">Locația 4</option>
+                    </select><br><br>
+
+                    <div class="metoda-plata">
+                        <label for="adresa">Adresă:</label>
+                        <textarea id="adresa" name="adresa" placeholder="Introduceți adresa completă"></textarea><br><br>
+
+                        <h4>Metoda de plată:</h4>
+
+                        <div class="radio-group">
+                            <input type="radio" id="numerar" name="metoda_plata" value="numerar">
+                            <label for="numerar">Numerar la curier</label>
+                        </div>
+
+                        <div class="radio-group">
+                            <input type="radio" id="card" name="metoda_plata" value="card">
+                            <label for="card">Card bancar</label>
+                        </div>
+
+                        <div class="radio-group">
+                            <input type="radio" id="card-primaire" name="metoda_plata" value="card-primaire">
+                            <label for="card-primaire">Card bancar la primire</label>
+                        </div>
+                    </div>
+
+
+                    <input type="submit" value="Plasează comanda">
+                </form>
+
+                <div class="creare-cont">
+                    <input type="radio" id="creare-cont" name="creare-cont" value="creare-cont">
+                    <label for="creare-cont">Creați un cont pe site</label>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+   
+
+</body>
+</html>
