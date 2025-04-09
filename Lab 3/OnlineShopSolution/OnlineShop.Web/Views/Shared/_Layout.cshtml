@@ -1,0 +1,58 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>@ViewData["Title"] - Aphrodita</title>
+     <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+     <!-- Header Section -->
+     <header>
+          <div class="contact-bar">
+               <a href="#" class="contact">&#9743 Contactează-ne</a>
+               <a href="#" class="shiping">&#9951 Livrare și plată</a>
+          </div>
+          <div class="top-bar">
+               <div class="logo">APHRODITE</div>
+               <div class="search-container">
+                    <input type="text" placeholder="Căutare produse ...">
+               </div>
+               <div class="user-options">
+                    <a href="#">Logare/Inregistrare</a>
+                    <a href="#" class="wishlist">&#9825 0</a>
+                    <<a asp-controller="Cart" asp-action="Cart" class="cart">&#128722 0 MDL</a>
+               </div>
+          </div>
+
+          <!-- Navigation Menu -->
+          <nav class="main-menu">
+               <ul>
+                    <li><a href="#">Machiaj</a></li>
+                    <li><a href="#">Piele</a></li>
+                    <li><a href="#">Parfumerie</a></li>
+                    <li><a href="#">Bărbați</a></li>
+                    <li><a href="#">Păr</a></li>
+                    <li><a href="#">Branduri</a></li>
+                    <li><a href="#">Noutați</a></li>
+                    <li><a href="#">Seturi cadou</a></li>
+                    <li><a href="#" class="active">Promoții</a></li>
+               </ul>
+          </nav>
+     </header>
+
+     <!-- Main Content Area -->
+     <main role="main">
+          @RenderBody()
+     </main>
+
+     <!-- Footer Section -->
+     <footer>
+          <p>&copy; 2025 - Aphrodita</p>
+          <img>
+     </footer>
+
+</body>
+</html>
